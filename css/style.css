@@ -1,3 +1,35 @@
+/* flex 수업 */
+/* 메인 페이지 정렬하기 */
+.index {
+  height: 100vh;
+}
+
+/* 메모장 페이지 정렬하기 */
+header {
+  margin: 50px 0;
+}
+
+/* 모달창 정렬하기 */
+.modal-wrap {
+}
+
+.upload-form {
+}
+
+.upload-btn-wrap {
+  padding: 20px 20px;
+}
+
+.input-wrap {
+  padding: 0 20px;
+}
+
+.btn-wrap {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
 /* class */
 .hidden {
   display: none;
@@ -34,10 +66,6 @@ img {
   padding-top: 40px;
 }
 
-header {
-  margin: 50px 0;
-}
-
 .exit-btn {
   border: 2px solid #f2994a;
   color: #f2994a;
@@ -72,12 +100,6 @@ header {
   background-image: url(../src/img/more.png);
 }
 
-.btn-wrap {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-
 .btn-wrap button {
   padding: 5px 20px;
   background-color: white;
@@ -105,18 +127,21 @@ header {
   color: red;
 }
 
-.upload-btn-wrap {
-  padding: 20px 20px;
-}
-
-.input-wrap {
-  padding: 0 20px;
-}
-
 .input-wrap input {
   height: 30px;
 }
 
 .input-wrap textarea {
   height: 270px;
+}
+
+.input-wrap input,
+.input-wrap textarea {
+  border: 1px solid #ccc;
+  background-color: transparent;
+}
+
+.input-wrap input:focus,
+.input-wrap textarea:focus {
+  outline: none;
 }
